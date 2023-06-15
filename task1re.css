@@ -1,0 +1,1128 @@
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: inherit;
+}
+
+#menu-btn-check {
+  display: none;
+}
+
+.FirstViewContent-image img:nth-of-type(2) {
+  width: 40%;
+}
+
+
+
+@media screen and (min-width:1440px) and (max-width:2560px) {
+  /*　画面サイズが1440pxから2560pxまではここを読み込む　*/
+
+  .FirstViewContainer {
+    /*background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);*/
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+    height: 450px;
+  }
+
+  .HeaderContainer {
+    width: 100%;
+    display: flex;
+    background-color: rgba(255,
+        255,
+        255,
+        0);
+  }
+
+  .HeaderLogo {
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .HeaderLogo:hover {
+    opacity: 0.8;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-right: 30px;
+
+  }
+
+  .span1 {
+    font-family: 'Lato', sans-serif;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .hamburger-menu {
+    margin: 0 0 0 auto
+  }
+
+  .Headernavi-Button {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    height: 70px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px
+  }
+
+  .Headernavi-Button:hover {
+    opacity: 0.8;
+  }
+
+  .menu-content {
+    display: inline-block;
+    padding: 0px;
+    color: black;
+    font-size: 14px;
+  }
+
+  .FirstView-image {
+    width: 100%;
+  }
+
+  .FirstViewContent-title {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+    position: absolute;
+    top: 100px;
+    left: 200px;
+  }
+
+  .FirstViewContent-image {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: absolute;
+    top: 280px;
+    left: 250px;
+  }
+
+  img {
+    border: 0;
+    vertical-align: middle;
+  }
+
+  .FirstViewContent-buttons {
+    text-align: center;
+    position: relative;
+    right: 5px;
+    left: 25px;
+    padding: 30px;
+    margin-left: 30px;
+  }
+
+  .FreeCounseling {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+
+    position: absolute;
+    top: 300px;
+    right: px;
+    bottom: ;
+    left: 100px;
+  }
+
+  .FreeCounseling:hover {
+    opacity: 0.8;
+  }
+
+  .Document-request {
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 38px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+
+    position: absolute;
+    top: 300px;
+    right: ;
+    bottom: ;
+    left: 450px;
+  }
+
+  .Document-request:hover {
+    opacity: 0.8;
+  }
+
+  .FirstViewContent-caption {
+    color: gray;
+    font-size: 5px;
+    position: absolute;
+    text-align: left;
+    top: 390px;
+    right: ;
+    bottom: ;
+    left: 50px;
+  }
+
+  .AboutContainer {
+    background-color: orange;
+    width: 100%;
+    height: 350px;
+  }
+
+  .video {
+    width: 500px;
+    position: absolute;
+    left: 180px;
+    top: 695px;
+
+  }
+
+  .About-Title {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 700px;
+    left: 800px;
+
+  }
+
+  .about {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 820px;
+    left: 800px;
+
+  }
+
+  .About-Link {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 900px;
+    left: 800px;
+  }
+}
+
+@media screen and (min-width:1080px) and (max-width:1439px) {
+
+  /*　画面サイズが1080pxから1439pxまではここを読み込む　*/
+  .HeaderContainer {
+    width: 100%;
+    display: flex;
+    background-color: rgba(255,
+        255,
+        255,
+        0);
+  }
+
+  .HeaderLogo {
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .HeaderLogo:hover {
+    opacity: 0.8;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-right: 30px;
+
+  }
+
+  .span1 {
+    font-family: 'Lato', sans-serif;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .hamburger-menu {
+    margin: 0 0 0 auto
+  }
+
+  .Headernavi-Button {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    height: 70px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px
+  }
+
+  .Headernavi-Button:hover {
+    opacity: 0.8;
+  }
+
+  .menu-content {
+    display: inline-block;
+    padding: 0px;
+    color: black;
+    font-size: 14px;
+  }
+
+  .FirstViewContainer {
+    /*background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);*/
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+    height: 450px;
+  }
+
+  .video {
+    width: 400px;
+    position: absolute;
+    left: 150px;
+    top: 715px;
+
+  }
+
+  .FirstView-image {
+    width: 100%;
+  }
+
+  .FirstViewContent-title {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+    position: absolute;
+    top: 100px;
+    left: 200px;
+  }
+
+  .FirstViewContent-image {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: absolute;
+    top: 280px;
+    left: 250px;
+  }
+
+  img {
+    border: 0;
+    vertical-align: middle;
+  }
+
+  .FirstViewContent-buttons {
+    text-align: center;
+    position: relative;
+    right: 5px;
+    left: 25px;
+    padding: 30px;
+    margin-left: 30px;
+  }
+
+  .FreeCounseling {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+
+    position: absolute;
+    top: 300px;
+    right: px;
+    bottom: ;
+    left: 100px;
+  }
+
+  .FreeCounseling:hover {
+    opacity: 0.8;
+  }
+
+  .Document-request {
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 38px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+
+    position: absolute;
+    top: 300px;
+    right: ;
+    bottom: ;
+    left: 450px;
+  }
+
+  .Document-request:hover {
+    opacity: 0.8;
+  }
+
+  .FirstViewContent-caption {
+    color: gray;
+    font-size: 5px;
+    position: absolute;
+    text-align: left;
+    top: 390px;
+    right: ;
+    bottom: ;
+    left: 50px;
+  }
+
+  .AboutContainer {
+    background-color: orange;
+    width: 100%;
+    height: 350px;
+  }
+
+  .About-Title {
+    font-size: 44px;
+    color: white;
+    position: absolute;
+    top: 647px;
+    left: 680px;
+
+  }
+
+  .about {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 788px;
+    left: 680px;
+
+  }
+
+  .About-Link {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 930px;
+    left: 680px;
+  }
+
+}
+
+@media screen and (min-width:1080px) {
+  body {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg );
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0px;
+    padding-bottom: 200px;
+    height: 450px;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1079px) {
+
+  /*　画面サイズが768pxから1079pxまではここを読み込む　*/
+  .HeaderContainer {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgba(255,
+        255,
+        255,
+        0);
+  }
+
+  .HeaderLogo {
+    padding-right: 710px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    background-color: white;
+    height: px;
+    margin-left: 0px;
+    position: fixed;
+    z-index: 150;
+  }
+
+  span {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    color: black;
+  }
+
+
+
+  .span1 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .span2 {
+    color: orange;
+  }
+
+  .Headernavi-Button {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    height: 70px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px
+  }
+
+  .Headernavi-Button:hover {
+    opacity: 0.8;
+  }
+
+  .menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    background-color: white;
+  }
+
+  .menu-btn:hover {
+    cursor: pointer;
+  }
+
+  /* 三本線の実装 */
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: black;
+    position: absolute;
+  }
+
+  .menu-btn span:before {
+    bottom: 8px;
+  }
+
+  .menu-btn span:after {
+    top: 8px;
+  }
+
+  #menu-btn-check {
+    display: none;
+  }
+
+  #menu-btn-check:checked~.menu-btn span {
+    background-color: rgba(255,
+        255,
+        255,
+        0);
+    /*メニューオープン時は真ん中の線を透明にする*/
+  }
+
+  /* メニューを開いている時はハンバーガーボタンが×になる */
+  #menu-btn-check:checked~.menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+
+  #menu-btn-check:checked~.menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  #menu-btn-check:checked~.menu-content {
+    left: 0%;
+    /*メニューを画面内へ動かす*/
+  }
+
+  .menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 80px;
+    z-index: 100;
+    left: 100%;
+    background-color: #333333;
+    transition: all 0.5s;
+  }
+
+  .menu-content ul {
+    padding: 70px 10px 0;
+  }
+
+  .menu-content ul li {
+
+    list-style: none;
+  }
+
+  .menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+  }
+
+  .Headernavi-Button {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    height: 70px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .FirstViewContainer {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 28px;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    margin-top: 35px;
+  }
+
+  .FirstViewContent-title {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+    position: absolute;
+    top: 180px;
+    left: 80px;
+  }
+
+  .FirstViewContent-image {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: absolute;
+    top: 390px;
+    left: 135px;
+  }
+
+  img {
+    border: 0;
+    vertical-align: middle;
+  }
+
+  .FirstViewContent-buttons {
+    text-align: center;
+    position: relative;
+    right: 5px;
+    left: 25px;
+    padding: 30px;
+    margin-left: 30px;
+  }
+
+  .FreeCounseling {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+
+    margin-top: 445px;
+
+  }
+
+  .FreeCounseling:hover {
+    opacity: 0.8;
+  }
+
+  .Document-request {
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 38px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+
+    margin-left: 350px;
+    margin-top: -65px;
+  }
+
+  .Document-request:hover {
+    opacity: 0.8;
+  }
+
+  .FirstViewContent-caption {
+    color: gray;
+    font-size: 5px;
+    text-align: left;
+    top: 570px;
+    right: ;
+    bottom: ;
+    left: 50px;
+  }
+
+  .AboutContainer {
+    background-color: orange;
+    width: 100%;
+    height: 1000px;
+  }
+
+  .About-Title {
+    font-size: 50px;
+    color: white;
+
+    margin-left: 100px;
+  }
+
+  .about {
+    font-size: 16px;
+    color: white;
+    margin-left: 100px;
+
+  }
+
+  .About-Link {
+    font-size: 18px;
+    color: white;
+    margin-left: 100px;
+  }
+
+
+
+  .video {
+    width: 90%;
+    margin-left: 45px;
+    margin-top: 60px;
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+  /* 767pxまでの幅の場合に適用される*/
+  .HeaderContainer {
+    width: 100%;
+    display: flex;
+    background-color: rgba(255,
+        255,
+        255,
+        0);
+  }
+
+  .HeaderLogo {
+    padding-right: 710px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    background-color: white;
+    height: px;
+    margin-left: 0px;
+    position: fixed;
+    z-index: 150;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-right: 30px;
+
+  }
+
+  .span1 {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .span1 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .span2 {
+    color: orange;
+  }
+
+  .menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    background-color: white;
+  }
+
+  .menu-btn:hover {
+    cursor: pointer;
+  }
+
+  /* 三本線の実装 */
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: black;
+    position: absolute;
+  }
+
+  .menu-btn span:before {
+    bottom: 8px;
+  }
+
+  .menu-btn span:after {
+    top: 8px;
+  }
+
+  #menu-btn-check {
+    display: none;
+  }
+
+
+  #menu-btn-check:checked~.menu-btn span {
+    background-color: rgba(255,
+        255,
+        255,
+        0);
+    /*メニューオープン時は真ん中の線を透明にする*/
+  }
+
+  /* メニューを開いている時はハンバーガーボタンが×になる */
+  #menu-btn-check:checked~.menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+
+  #menu-btn-check:checked~.menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  #menu-btn-check:checked~.menu-content {
+    left: 0%;
+    /*メニューを画面内へ動かす*/
+  }
+
+  .menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 80px;
+    z-index: 100;
+    left: 100%;
+    background-color: #333333;
+    transition: all 0.5s;
+  }
+
+  .menu-content ul {
+    padding: 70px 10px 0;
+  }
+
+  .menu-content ul li {
+
+    list-style: none;
+  }
+
+  .menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+  }
+
+
+  .Headernavi-Button {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    height: 70px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+  }
+
+  .Headernavi-Button:hover {
+    opacity: 0.8;
+  }
+
+  .FirstViewContainer {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 28px;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    margin-top: 30px;
+  }
+
+  .FirstViewContent-title {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    top: 500px;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+
+
+
+  .FirstViewContent-image img {
+    width: 27.5%;
+  }
+
+  .FirstViewContent-image {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+
+  .FreeCounseling {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+
+
+  }
+
+  .FreeCounseling:hover {
+    opacity: 0.8;
+  }
+
+  .Document-request {
+    display: none;
+  }
+
+  .FirstViewContent-caption {
+    color: gray;
+    font-size: 4px;
+    text-align: left;
+    top: 750px;
+    right: 40px;
+    bottom: ;
+    left: ;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .AboutContainer {
+    background-color: orange;
+    width: 100%;
+    height: 800px;
+  }
+
+
+  .About-Title {
+    font-size: 50px;
+    color: white;
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .about {
+    font-size: 16px;
+    color: white;
+    width: 85%;
+    margin-left: 20px;
+  }
+
+  .About-Link {
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+  }
+
+
+
+  .video {
+    display: block;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 18px;
+    padding-top: 30px;
+
+  }
+}
